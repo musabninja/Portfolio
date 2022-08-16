@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Bungee-Regular';
+    src: URL('Fonts/Bungee-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('Fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'JosefinSansBold';
+    src: url('Fonts/JosefinSans-Bold.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(27, 27, 27);
+    /* background-image: url("Resources/Wallpaper.jpg"); */
+}
+
+.header {
+    font-family: 'josefinsansBold';
+}
+.centeredText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'josefinsans';
+    font-size: 55px;
+}
+
+
+.banner {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    z-index: 100;
+    white-space: preline;
+    overflow: clip;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.topBannerText {
+    font-size: larger;
+    color: white;
+    font-family: Bungee-Regular;
+    margin: 0%;
+    text-align: right;
+}
+
+.banner_content {
+    padding: 16px;
+    max-width: 1;
+    margin: 0 auto;
+    align-items: left;
+}
+
+.banner_text {
+    flex-grow: 1;
+    line-height: 1;
+}
