@@ -1,5 +1,4 @@
 # Portfolio Todo
-- Add links to social media
+- Add links to social media -[x]
 - Add projects
-- Add a contact form
 - Add a downloadable CV
