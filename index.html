@@ -3,15 +3,13 @@
 <title>Musab Al-Bahry | Portfolio</title>
 <link href="style.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script.js"></script> 
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&display=swap" rel="stylesheet"> 
 </head>
-
-
-
 <body>
     <div class="banner">
         <div class="banner_content">
@@ -26,13 +24,26 @@
         </div>
 </div>
     <section class="showcase">
-        <video src="Resources/wallpaper.mp4" muted loop autoplay></video>
+        <div class="videoContainer">
+            <video src="Resources/wallpaper.mp4" muted loop autoplay></video>
+        </div>
         <div class="overlay"></div>
     </section>
 
 <div class="contentContainer">
-    <div class="centeredText">
-            <div>Hi <span class="wave"><img src="Resources/Hand.gif" width="55px"></span>, I'm <span class="header">Musab Al-Bahry</span></div>
+    <div class="greetingContainer">
+        <tr><img class="profilePhoto" src="Resources/profilePhoto.jpg"></tr>
+        <tr class="greetingText"><div>Hi <span class="wave"><img src="Resources/Hand.gif" width="55px"></span>, I'm <span class="header">Musab Al-Bahry</span></div></tr>
+    </div>
+    <div class="socialLinks">
+        <table class="socialIconButtons">
+            <tr>
+                <th><button onClick="github()" class="btn"><i class="fa fa-github"></i></button></th>
+                <th><button onClick="youtube()" class="btn"><i class="fa fa-youtube"></i></button></th>
+                <th><button onClick="stackoverflow()"" class="btn"><i class="fa fa-stack-overflow"></i></button></th>
+                <th><button onClick="email()" class="btn"><i class="fa fa-envelope"></i></button></th>
+            </tr>
+        </table>
     </div>
 </div>
 
