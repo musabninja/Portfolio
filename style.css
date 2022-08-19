@@ -46,7 +46,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    filter: brightness(35%);
+    filter: brightness(50%);
 }
 
 .profilePhoto {
@@ -104,6 +104,8 @@ p {
 
 .aboutDescription {
     font-size: 18px;
+    line-height: 1.7;
+    word-spacing: 0.1px;
 }
 
 .btn {
