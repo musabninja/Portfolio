@@ -144,8 +144,9 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 27px;
-    padding-top: 25px;
+    align-self: center;
+    font-size: 26px;
+    padding-top: 24px;
 }
 
 .banner {
