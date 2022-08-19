@@ -46,7 +46,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    filter: brightness(80%);
+    filter: brightness(35%);
 }
 
 .profilePhoto {
@@ -55,19 +55,26 @@ body {
     max-width: 200px; 
     max-height: 200px;
     border-radius: 25px;
-    border: 10px solid rgba(20, 0, 110, 0.205);
     opacity: 0.9;
+    box-shadow: 0 5px 10px rgba(20, 0, 110, 0.6);    
+
+}
+.about {
+    padding-top: 20px;
 }
 
 .header {
     font-family: 'josefinsansBold';
 }
 
+.aboutText{
+    font-family: josefinSansBold;
+}
 
 .contentContainer {
     color: white;
     position: fixed;
-    width: 50%;
+    width: 55%;
     height: 50%;
     top: 50%;
     left: 50%;
@@ -79,30 +86,60 @@ body {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border-radius: 25px;
-    height: 50%;
+    height: 75%;
 }
+
 .greetingContainer{
     font-size: 50px;
     padding-top: 50px;
+}
+
+p {
+    font-family: josefinSans;
+}
+.about {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.aboutDescription {
+    font-size: 18px;
 }
 
 .btn {
     background-color: rgba(255, 255, 255, 0.04);
     border-radius: 10px;
     border: none;
-    padding: 10px 16px; /* Some padding */
-    font-size: 30px; /* Set a font size */
-    cursor: pointer; /* Mouse pointer on hover */
+    padding: 10px 16px;
+    font-size: 30px;
+    cursor: pointer;
     backdrop-filter: blur(0px);
     color: rgba(200, 200, 200, 0.9);
+    box-shadow: 0 5px 10px rgba(20, 0, 110, 0.6);
 }
   
-  /* Darker background on mouse-over */
 .btn:hover {
-    color: rgba(197, 111, 255, 0.74);
-    box-shadow: 0 5px 10px rgba(20, 0, 110, 0.6);
+    color: rgb(255, 255, 255);
 
-} 
+}
+
+.downloadbtn {
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 10px;
+    border: none;
+    padding: 10px 16px;
+    font-family: 'josefinsansBold';
+    font-size: 30px;
+    cursor: pointer;
+    backdrop-filter: blur(0px);
+    color: rgba(200, 200, 200, 0.9);
+    box-shadow: 0 5px 10px rgba(20, 0, 110, 0.6);
+}
+  
+.downloadbtn:hover {
+    color: rgb(255, 255, 255)
+}
+
 .socialLinks {
     display: flex;
     justify-content: center;
@@ -110,6 +147,7 @@ body {
     font-size: 27px;
     padding-top: 25px;
 }
+
 .banner {
     position: fixed;
     top: 0;
