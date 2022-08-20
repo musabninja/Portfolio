@@ -1,5 +1,5 @@
 # Portfolio Todo
  - [x] Add links to social media
 - [x] Done portfolio description
-- [ ] Add projects
+- [x] Add projects div
 - [ ] Add a downloadable CV
