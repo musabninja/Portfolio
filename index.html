@@ -23,12 +23,6 @@
             </div>
         </div>
 </div>
-    <section class="showcase">
-        <div class="videoContainer">
-            <video src="Resources/wallpaper.mp4" muted loop autoplay></video>
-        </div>
-        <div class="overlay"></div>
-    </section>
 <div class="contentContainer">
     <div class="greetingContainer"> <!-- Greeting container start -->
         <tr><img class="profilePhoto" src="Resources/profilePhoto.jpg"></tr>
@@ -60,6 +54,13 @@
         </p>
     </div>
 </div>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".contentContainer"), {
+		max: 1,
+		speed: 20
+	});
+</script>
 </body>
 </html>
 

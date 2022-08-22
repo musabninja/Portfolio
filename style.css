@@ -19,34 +19,11 @@ body {
 }
 
 body {
-    background-color: rgb(27, 27, 27);
-    /* background-image: url("Resources/Wallpaper.jpg"); */
-}
-
-.videoContainer {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%; 
-    overflow: clip;
-}
-
-.videoContainer video {
-    /* Make video to at least 100% wide and tall */
-    min-width: 100%; 
-    min-height: 100%; 
-
-    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
-    width: auto;
-    height: auto;
-
-    /* Center the video */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    filter: brightness(35%);
+    background-image: url("Resources/wallpaper.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .profilePhoto {
@@ -72,21 +49,19 @@ body {
 }
 
 .contentContainer {
+    margin: auto;
+    margin-top: 100px;
     color: white;
-    position: fixed;
-    width: 80%;
-    top: 54%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 90em;
+    height: 52em;
     font-family: 'josefinsans';
     text-align: center;
-    background: rgba(0, 0, 0, 0.5);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.01);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(20px);
     border-radius: 25px;
-    height: 85%;
-    overflow-y: auto;
+
 }
 
 .greetingContainer{
@@ -165,10 +140,9 @@ p {
     z-index: 100;
     white-space: preline;
     overflow: clip;
-    background: rgba(0, 0, 0, 0.5);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.02);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(50px);
 }
 
 .topBannerText {
